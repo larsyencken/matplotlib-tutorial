@@ -29,5 +29,5 @@ ax3 = fig.add_subplot(1,3,3)
 #matplotlib can take any HTMLcolor
 ax3.imshow(data, cmap='RdBu')
 
-canvas.print_figure('figures/pointcolor.png', 
+canvas.print_figure('figures/cmap_basic.png',
 		facecolor='lightgray')

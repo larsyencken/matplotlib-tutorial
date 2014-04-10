@@ -21,11 +21,11 @@ data = np.random.randint(1,10, size=(2,100))
 ax.scatter(data[0], data[1], s=100)
 
 xfmt = mticker.FixedFormatter(['one', 'two', 'three', 'four',
-                               'five', 'six', 'seven', 'eight', 
+                               'five', 'six', 'seven', 'eight',
 							   'nine'])
 ax.xaxis.set_major_formatter(xfmt)
 yfmt = mticker.FormatStrFormatter("val=%d")
 ax.yaxis.set_major_formatter(yfmt)
 
-canvas.print_figure('figures/textform.png', 
+canvas.print_figure('figures/formatters.png',
 		facecolor='lightgray')

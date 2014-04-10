@@ -32,5 +32,5 @@ cbar2.cmap.set_over('green')
 cbar2.cmap.set_under('orange')
 cbar2.set_label("Random Data")
 fig.subplots_adjust(wspace=.4)
-canvas.print_figure('figures/cmapbounds.png', 
+canvas.print_figure('figures/cmap_clip.png',
 		facecolor='lightgray')

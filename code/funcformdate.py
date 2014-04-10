@@ -40,7 +40,7 @@ def funcf(val,pos):
 		return "over: %d" %val
 	else:
 		return val
-		
+
 
 yfmt = mticker.FuncFormatter(funcf)
 ax.yaxis.set_major_formatter(yfmt)
@@ -48,5 +48,5 @@ ax.yaxis.set_major_formatter(yfmt)
 ax.grid(True)
 #rotates and right aligns the date labels
 fig.autofmt_xdate()
-canvas.print_figure('figures/textfuncdate.png', 
+canvas.print_figure('figures/funcformdate.png',
 		facecolor='lightgray')

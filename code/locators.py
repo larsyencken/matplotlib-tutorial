@@ -22,7 +22,7 @@ ax.scatter(data[0], data[1], s=100)
 
 xloc = mticker.FixedLocator(range(1,10))
 xfmt = mticker.FixedFormatter(['one', 'two', 'three', 'four',
-                               'five', 'six', 'seven', 'eight', 
+                               'five', 'six', 'seven', 'eight',
 							   'nine'])
 ax.xaxis.set_major_formatter(xfmt)
 ax.xaxis.set_major_locator(xloc)
@@ -33,5 +33,5 @@ yfmt = mticker.FormatStrFormatter("val=%d")
 ax.yaxis.set_major_formatter(yfmt)
 ax.yaxis.set_major_locator(yloc)
 
-canvas.print_figure('figures/textformloc.png', 
+canvas.print_figure('figures/locators.png',
 		facecolor='lightgray')

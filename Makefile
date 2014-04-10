@@ -1,37 +1,43 @@
 #
 #  Makefile
 #
+
+.DELETE_ON_ERROR:
+
 default: \
-	code/bubble.py \
-	code/cmap_basic.py \
-	code/cmap_cax.py \
-	code/cmap_clip.py \
-	code/cmap_colorbar.py \
-	code/cmap_colorbaropts.py \
-	code/cmap_custom.py \
-	code/cmap_discrete.py \
-	code/colorpoint.py \
-	code/figure.py \
-	code/formatters.py \
-	code/fourplot.py \
-	code/funcformdate.py \
-	code/latex.py \
-	code/linestyle.py \
-	code/locators.py \
-	code/map.py \
-	code/mappoint.py \
-	code/mapraster.py \
-	code/mapshape.py \
-	code/markersize.py \
-	code/markerstyle.py \
-	code/plot.py \
-	code/point.py \
-	code/pointalpha.py \
-	code/spines.py \
-	code/subplot.py \
-	code/textnomticker.py \
-	code/textproperties.py \
-	code/xyz.py \
+	figures/bubble.png \
+	figures/cmap_basic.png \
+	figures/cmap_cax.png \
+	figures/cmap_clip.png \
+	figures/cmap_colorbar.png \
+	figures/cmap_colorbaropts.png \
+	figures/cmap_custom.png \
+	figures/cmap_discrete.png \
+	figures/colorpoint.png \
+	figures/figure.png \
+	figures/formatters.png \
+	figures/fourplot_hist.png \
+	figures/funcformdate.png \
+	figures/latex.png \
+	figures/linestyle.png \
+	figures/locators.png \
+	figures/map.png \
+	figures/mappoint.png \
+	figures/mapraster.png \
+	figures/mapshape.png \
+	figures/markersize.png \
+	figures/markerstyle.png \
+	figures/plot.png \
+	figures/point.png \
+	figures/pointalpha.png \
+	figures/spines.png \
+	figures/subplot.png \
+	figures/textnomticker.png \
+	figures/textproperties.png \
+	figures/xyz.png \
+
+clean:
+	rm -f figures/*
 
 figures/bubble.png: code/bubble.py
 	python code/bubble.py
@@ -66,7 +72,7 @@ figures/figure.png: code/figure.py
 figures/formatters.png: code/formatters.py
 	python code/formatters.py
 
-figures/fourplot.png: code/fourplot.py
+figures/fourplot_hist.png: code/fourplot.py
 	python code/fourplot.py
 
 figures/funcformdate.png: code/funcformdate.py
@@ -122,36 +128,3 @@ figures/textproperties.png: code/textproperties.py
 
 figures/xyz.png: code/xyz.py
 	python code/xyz.py
-
-default: \
-	figures/bubble.png \
-	figures/cmap_basic.png \
-	figures/cmap_cax.png \
-	figures/cmap_clip.png \
-	figures/cmap_colorbar.png \
-	figures/cmap_colorbaropts.png \
-	figures/cmap_custom.png \
-	figures/cmap_discrete.png \
-	figures/colorpoint.png \
-	figures/figure.png \
-	figures/formatters.png \
-	figures/fourplot.png \
-	figures/funcformdate.png \
-	figures/latex.png \
-	figures/linestyle.png \
-	figures/locators.png \
-	figures/map.png \
-	figures/mappoint.png \
-	figures/mapraster.png \
-	figures/mapshape.png \
-	figures/markersize.png \
-	figures/markerstyle.png \
-	figures/plot.png \
-	figures/point.png \
-	figures/pointalpha.png \
-	figures/spines.png \
-	figures/subplot.png \
-	figures/textnomticker.png \
-	figures/textproperties.png \
-	figures/xyz.png \
-

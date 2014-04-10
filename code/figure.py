@@ -9,5 +9,5 @@ fig = figure.Figure()
 
 canvas = FigureCanvas(fig)
 
-canvas.print_figure('figures/canvas.png', 
+canvas.print_figure('figures/figure.png',
 		facecolor='lightgray')

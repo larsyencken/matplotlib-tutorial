@@ -33,7 +33,7 @@ ax.set_xlim((498,535))
 
 ax.set_xticks([])
 ax.set_yticks([])
-canvas.print_figure('../figures/markerstyle.png', 
+canvas.print_figure('figures/markerstyle.png', 
 		facecolor='lightgray')
 """	
 The marker can also be a tuple (numsides, style, angle), which will create a custom, regular symbol.

@@ -28,5 +28,5 @@ ax3 = fig.add_subplot(1,3,3)
 plt3 = ax3.imshow(data, cmap='RdBu')
 fig.colorbar(plt3, ax=ax3)
 
-canvas.print_figure('../figures/basiccolor.png', 
+canvas.print_figure('figures/basiccolor.png', 
 		facecolor='lightgray')

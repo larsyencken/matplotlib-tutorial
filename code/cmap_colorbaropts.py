@@ -24,5 +24,5 @@ ax2 = fig.add_subplot(1,2,2)
 plt2 = ax2.imshow(data, cmap='RdBu')
 fig.colorbar(plt2, ax=ax2, fraction=0.04, orientation='horizontal')
 
-canvas.print_figure('../figures/movedcmap.png', 
+canvas.print_figure('figures/movedcmap.png', 
 		facecolor='lightgray')

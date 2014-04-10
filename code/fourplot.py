@@ -79,7 +79,7 @@ def four_plot(dates, values):
     ax4 = fig.add_subplot(2,2,4)
     norm_prob(ax4, values)
     fig.tight_layout()
-    canvas.print_figure('../figures/fplot.png', bbox_inches='tight', pad_inches=0.1)
+    canvas.print_figure('figures/fplot.png', bbox_inches='tight', pad_inches=0.1)
     
     
     
@@ -102,7 +102,7 @@ if __name__ == '__main__':
         canvas = FigureCanvas(fig)
         ax = fig.add_subplot(1,1,1)
         f(ax, *args)
-        canvas.print_figure("../figures/{}.png".format(fn), 
+        canvas.print_figure("figures/{}.png".format(fn), 
 		                     bbox_inches='tight', pad_inches=0.1)
         
     four_plot(index, values)

@@ -31,5 +31,5 @@ ax.yaxis.set_major_formatter(yfmt)
 ax.yaxis.set_major_locator(yloc)
 ax.tick_params(axis='y', colors='red', labelsize='15')
 
-canvas.print_figure('../figures/textnomticker.png', 
+canvas.print_figure('figures/textnomticker.png', 
 		facecolor='lightgray')

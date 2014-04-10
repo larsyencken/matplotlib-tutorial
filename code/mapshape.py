@@ -31,5 +31,5 @@ for nshape,seg in enumerate(m.states):
     poly = Polygon(seg, ec='k', fc=cls[nshape%4])
     ax.add_patch(poly)  
 
-canvas.print_figure('../figures/mapshape.png', 
+canvas.print_figure('figures/mapshape.png', 
 		facecolor='lightgray')

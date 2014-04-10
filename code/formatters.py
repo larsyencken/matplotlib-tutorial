@@ -27,5 +27,5 @@ ax.xaxis.set_major_formatter(xfmt)
 yfmt = mticker.FormatStrFormatter("val=%d")
 ax.yaxis.set_major_formatter(yfmt)
 
-canvas.print_figure('../figures/textform.png', 
+canvas.print_figure('figures/textform.png', 
 		facecolor='lightgray')

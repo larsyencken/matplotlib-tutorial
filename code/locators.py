@@ -33,5 +33,5 @@ yfmt = mticker.FormatStrFormatter("val=%d")
 ax.yaxis.set_major_formatter(yfmt)
 ax.yaxis.set_major_locator(yloc)
 
-canvas.print_figure('../figures/textformloc.png', 
+canvas.print_figure('figures/textformloc.png', 
 		facecolor='lightgray')

@@ -28,5 +28,5 @@ ax3.set_zlim((-1,1,))
 
 fig.tight_layout()
 
-canvas.print_figure('../figures/xyz.png', 
+canvas.print_figure('figures/xyz.png', 
 		facecolor='lightgray')

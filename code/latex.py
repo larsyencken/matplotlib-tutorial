@@ -14,5 +14,5 @@ canvas = FigureCanvas(fig)
 ax = fig.add_subplot(1,1,1)
 ax.set_title(r'$\alpha=\beta$')
 
-canvas.print_figure('../figures/latex.png', 
+canvas.print_figure('figures/latex.png', 
 		facecolor='lightgray')

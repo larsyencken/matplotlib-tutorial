@@ -20,5 +20,5 @@ ax.set_ylim((0,1))
 ax.set_xlim((0,1))
 fig.tight_layout()
 
-canvas.print_figure('../figures/pointalpha.png', 
+canvas.print_figure('figures/pointalpha.png', 
 		facecolor='lightgray')

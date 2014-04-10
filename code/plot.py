@@ -11,5 +11,5 @@ canvas = FigureCanvas(fig)
 
 ax = fig.add_subplot(1,1,1)
 
-canvas.print_figure('../figures/plot.png', 
+canvas.print_figure('figures/plot.png', 
 		facecolor='lightgray')

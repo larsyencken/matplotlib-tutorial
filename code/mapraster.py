@@ -30,5 +30,5 @@ fig.colorbar(plt, ax=ax, fraction=.15,
 			 orientation='horizontal')
                 
 
-canvas.print_figure('../figures/mapraster.png', 
+canvas.print_figure('figures/mapraster.png', 
 		facecolor='lightgray')

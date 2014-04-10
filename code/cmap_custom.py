@@ -41,5 +41,5 @@ plt2 = ax2.imshow(data, interpolation='nearest', cmap=cmap, norm=norm)
 cbar2 = fig.colorbar(plt2, ax=ax2, fraction=0.045)
 
 fig.subplots_adjust(wspace=.4)
-canvas.print_figure('../figures/cmapcustom.png', 
+canvas.print_figure('figures/cmapcustom.png', 
 		facecolor='lightgray')

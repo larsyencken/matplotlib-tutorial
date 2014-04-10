@@ -22,5 +22,5 @@ m.drawcountries(color=border_color)
 m.drawmapboundary(color=border_color)
                 
 
-canvas.print_figure('../figures/map.png', 
+canvas.print_figure('figures/map.png', 
 		facecolor='lightgray')

@@ -16,5 +16,5 @@ ax.scatter(0.5, 0.5, s=500, edgecolor='b', color='pink')
 
 fig.tight_layout()
 
-canvas.print_figure('../figures/point.png', 
+canvas.print_figure('figures/point.png', 
 		facecolor='lightgray')

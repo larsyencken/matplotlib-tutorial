@@ -21,5 +21,5 @@ plt1 = ax1.imshow(data, cmap='RdBu')
 cbar = fig.colorbar(plt1, ax=ax1, fraction=0.045)
 cbar.set_label("Random Data")
 
-canvas.print_figure('../figures/cmapaxis.png', 
+canvas.print_figure('figures/cmapaxis.png', 
 		facecolor='lightgray')

@@ -20,5 +20,5 @@ ax.set_ylim((0,100))
 ax.set_xlim((0,100))
 fig.tight_layout()
 
-canvas.print_figure('../figures/markersize.png', 
+canvas.print_figure('figures/markersize.png', 
 		facecolor='lightgray')

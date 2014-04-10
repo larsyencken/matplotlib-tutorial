@@ -39,5 +39,5 @@ for city, xc, yc in zip(cities, x, y):
 	ax.text(xc+5, yc, city,
 		bbox=dict(facecolor='yellow', alpha=0.5))
 
-canvas.print_figure('../figures/mappoint.png', 
+canvas.print_figure('figures/mappoint.png', 
 		facecolor='lightgray')

@@ -31,5 +31,5 @@ for i, l in enumerate(llist):
 ax.set_ylim((0,1))
 ax.set_xticks([])
 ax.set_yticks([])
-canvas.print_figure('../figures/linestyle.png', 
+canvas.print_figure('figures/linestyle.png', 
 		facecolor='lightgray')

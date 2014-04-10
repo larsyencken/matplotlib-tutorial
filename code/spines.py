@@ -27,5 +27,5 @@ ax2.spines['right'].set_color('none')
 
 fig.tight_layout()
 
-canvas.print_figure('../figures/spines.png', 
+canvas.print_figure('figures/spines.png', 
 		facecolor='lightgray')

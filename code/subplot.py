@@ -24,5 +24,5 @@ ax6.text(.5,.5,"ax6")
 
 #fig.tight_layout()
 
-canvas.print_figure('../figures/subplot.png', 
+canvas.print_figure('figures/subplot.png', 
 		facecolor='lightgray')
